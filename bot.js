@@ -84,11 +84,10 @@ const messageListener = message => {
   if (message['sender_type'] === 'user') {
     // Checks if the sent message contained the string 'bot'.
     if (message['text'].indexOf('rand') !== -1) {
-      /* Sends a GroupMe message as this bot to the bot's
-       * group, indicating its insecurity about the topic
-       * of conversation.
-       */
       sendMessage((Math.floor(Math.random() * 100) + 1).toString())
+    }
+    if (message['text'].indexOf('pener') !== -1) {
+      sendMessage('3====D')
     }
   }
 }
