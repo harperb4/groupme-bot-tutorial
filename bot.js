@@ -89,6 +89,9 @@ const messageListener = message => {
     if (message['text'].indexOf('pener') !== -1) {
       sendMessage('3====D')
     }
+    if (message['text'].indexOf('penerload') !== -1) {
+      sendMessage('3====D~~~~~~')
+    }
   }
 }
 
