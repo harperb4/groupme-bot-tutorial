@@ -83,14 +83,8 @@ const messageListener = message => {
    */
   if (message['sender_type'] === 'user') {
     // Checks if the sent message contained the string 'bot'.
-    if (message['text'].indexOf('chanceofcoochie') !== -1) {
+    if (message['text'].indexOf('CoC') !== -1) {
       sendMessage((Math.floor(Math.random() * 100) + 1).toString().concat("%"))
-    }
-    if (message['text'].indexOf('pener') !== -1) {
-      sendMessage('3====D')
-    }
-    if (message['text'].indexOf('penerload') !== -1) {
-      sendMessage('3====D~~~~~~')
     }
   }
 }
