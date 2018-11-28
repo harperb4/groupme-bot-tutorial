@@ -88,7 +88,7 @@ const messageListener = message => {
        * group, indicating its insecurity about the topic
        * of conversation.
        */
-      sendMessage('OMG! Are you guys gossiping about me?!?!')
+      sendMessage('8008135')
     }
   }
 }
