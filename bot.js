@@ -88,7 +88,7 @@ const messageListener = message => {
        * group, indicating its insecurity about the topic
        * of conversation.
        */
-      sendMessage('8008135')
+      sendMessage((Math.floor(Math.random() * 6) + 1).toString())
     }
   }
 }
